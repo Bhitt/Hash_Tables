@@ -1,0 +1,13 @@
+Interview Questions:
+	Hash Tables are the most useful/common technique for solving interview problems. They should be 
+	your starting point when looking to solve a question.
+Basic Operations:
+	Search:
+		Searches an element in a hash table: O(1).
+	Insert:
+		Inserts an element in a hash table: O(1).
+	Delete:
+		Deletes an element from a hash table: O(1).
+Assumed Runtimes:
+	All operations are assumed to perform in O(1) time but could potentially run in O(n) time if 
+	using a bad hashing technique.
