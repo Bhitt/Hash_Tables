@@ -14,7 +14,7 @@ public class HashMapList<T, E> {
 
 	/* Insert item into list at key */
 	public void put(T key, E item){
-		if(!map.contains(key)){
+		if(!map.containsKey(key)){
 			map.put(key, new ArrayList<E>());
 		}
 		map.get(key).add(item);
